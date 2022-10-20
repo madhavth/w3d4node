@@ -11,6 +11,7 @@ function askInput(sum = 0) {
         
         if(value === 'stop') {
             printOutput(sum);
+            readline.close();
             return;
         }
 

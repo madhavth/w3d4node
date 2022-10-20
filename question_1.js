@@ -33,6 +33,7 @@ function askAge() {
                 "You're allowed to get a drivers license in Iowa"
         );
 
+        readline.close();
     });
 }
 
